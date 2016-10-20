@@ -1,19 +1,18 @@
-<% provide(:title, t("About")) %>
+<% provide :title, t(".About") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield :title %> | <%= t "Ruby on Rails Tutorial Sample App" %></title>
+    <title><%= yield :title %> | <%= t ".Sample_App" %></title>
   </head>
   <body>
-    <h1>About</h1>
+    <h1><%= t "About" %></h1>
     <p>
-      The <a href="http://www.railstutorial.org/"><em><%= t "Ruby on Rails
-      Tutorial" %></em></a> is a
-      <a href="http://www.railstutorial.org/book"><%= t "book" %></a> <%= t "and" %>
-      <a href="http://screencasts.railstutorial.org/"><%= t "screencast series" %></a>
-      <%= t "to teach web development with" %>
-      <a href="http://rubyonrails.org/"><%= t "Ruby on Rails" %></a>.
-      <%= t "This is the sample application" %>
+      The <a href="http://www.railstutorial.org/"><em><%= t ".Tutorial" %></em></a> is a
+      <a href="http://www.railstutorial.org/book"><%= t ".book" %></a> <%= t ".and" %>
+      <a href="http://screencasts.railstutorial.org/"><%= t ".screencast_series" %></a>
+      <%= t ".teach_web" %>
+      <a href="http://rubyonrails.org/"><%= t ".Rails" %></a>.
+      <%= t ".sample" %>
     </p>
   </body>
 </html>

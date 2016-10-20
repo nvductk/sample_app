@@ -20,36 +20,68 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+
   hello: "Hello world"
-  sample_app: "sample app"
+  helpers:
+  users:
+    create:
+      success: "Welcome to the Sample App!"
+    new:
+      title: "Sign up"
+      Confirmation: "Confirmationaaa"
+      Create_my_account: "Create my accountaaa"
+  layouts:
+    footer:
+      Tutorial: "Ruby on Rails Tutorial"
+      Michael_Hartl: "Michael Hartl"
+      About: "About"
+      Contact: "Contact"
+      News: "News"
+      The: "The"
+      by: "by"
+
+    header:
+      sample_app: "sample app"
+      Home: "Home"
+      Help : "Help"
+      Log_in: "Log in"
+
+    application:
+      Sample_App: "Ruby on Rails Tutorial Sample App"
   static_pages:
-  the: "The"
-  Ruby on Rails Tutorial: "Ruby on Rails Tutorial"
-  Ruby on Rails Tutorial Sample App: "Ruby on Rails Tutorial Sample App aaaa"
-  by: "by"
-  Michael Hartl: "Michael Hartl"
-  About: "About"
-  Contact: "Contact"
-  News: "News"
-  Home: "Home"
-  Help : "Help"
-  Log in: "Log in"
-  Welcome to the Sample App: "Welcome to the Sample App"
-  This is the home page for the: "This is the home page for the"
-  Ruby on Rails Tutorial: "Ruby on Rails Tutorial"
-  sample application: "sample application"
-  Sign up now: "Sign up now!"
-  Rails logo: "Rails logoafaf"
-  Sign up title: "Sign up"
-  Sign up: "Sign updd"
-  This will be a signup page for new users: "This will be a signup page for new users."
-  Get help on the Ruby on Rails Tutorial at the: "Get help on the Ruby on Rails Tutorial at the aa"
-  Rails Tutorial help section: "Rails Tutorial help section adda"
-  To get help on this sample app: "To get help on this sample app, see the"
-  Contact the Ruby on Rails: "Contact the Ruby on Rails Tutorial about the sample app at the"
-  contact page: "contact page"
-  book: "book"
-  screencast series: "screencast series"
-  to teach web development with: "to teach web development with"
-  This is the sample application: "This is the sample application for the tutorial."
-  and: "and"
+    about:
+      Sample_App: "Ruby on Rails Tutorial Sample App aaaa"
+      Tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+      and: "and"
+      screencast_series: "screencast series"
+      teach_web: "to teach web development with"
+      Rails: "Ruby on Rails"
+      sample: "This is the sample application"
+      About: "About"
+
+    contact:
+      Contact_the_Ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+      Contact: "Contact"
+
+    help:
+      Sample_App: "Ruby on Rails Tutorial Sample App"
+      Get_help_on: "Get help on the Ruby on Rails Tutorial at the aa"
+      To_get_help: "To get help on this sample app, see the"
+      Ruby_on_Rails: "Ruby on Rails Tutorial"
+      Help: "Help"
+      book: "book"
+
+    home:
+      Welcome: "Welcome to the Sample App"
+      This_is: "This is the home page for the"
+      Tutorial: "Ruby on Rails Tutorial"
+      sample: "sample application"
+      Sign_up_now: "Sign up now!"
+      Rails logo: "Rails logoafaf"
+  shared:
+    error:
+      error: "errorsss"
+      The_form: "The form form contains"
+

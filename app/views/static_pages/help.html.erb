@@ -1,17 +1,17 @@
-<% provide :title, t("Help") %>
+<% provide :title, t(".Help") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | <%= t "Ruby on Rails Tutorial Sample App" %></title>
+    <title><%= yield(:title) %> | <%= t ".Sample_App" %></title>
   </head>
   <body>
-    <h1><%= t "Help" %></h1>
+    <h1><%= t ".Help" %></h1>
     <p>
-      <%= t "Get help on the Ruby on Rails Tutorial at the" %>
+      <%= t ".Get_help_on" %>
       <a href="http://www.railstutorial.org/help"><%= t "Rails Tutorial help section" %></a>.
-      <%= t "To get help on this sample app" %>
-      <a href="http://www.railstutorial.org/book"><em><%= t "Ruby on Rails Tutorial" %></em>
-      book</a>.
+      <%= t "To_get_help" %>
+      <a href="http://www.railstutorial.org/book"><em><%= t ".Ruby_on_Rails" %></em><%= t ".book" %>
+      </a>.
     </p>
   </body>
 </html>
