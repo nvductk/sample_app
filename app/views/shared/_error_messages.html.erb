@@ -1,7 +1,7 @@
 <% if @user.errors.any? %>
   <div id=".error_explanation">
     <div class="alert alert-danger">
-      <%= t ".The_form" %> <%= pluralize(@user.errors.count, t("shared.error.error")) %>.
+      <%= t ".The_form" %> <%= pluralize(@user.errors.count, t(".error")) %>.
     </div>
     <ul>
     <% @user.errors.full_messages.each do |msg| %>

@@ -33,7 +33,6 @@ en:
   layouts:
     footer:
       Tutorial: "Ruby on Rails Tutorial"
-      Michael_Hartl: "Michael Hartl"
       About: "About"
       Contact: "Contact"
       News: "News"
@@ -45,6 +44,11 @@ en:
       Home: "Home"
       Help : "Help"
       Log_in: "Log in"
+      Users: "Users"
+      Account: "Account"
+      Profile: "Profile"
+      Settings: "Settings"
+      Log_out: "Log out"
 
     application:
       Sample_App: "Ruby on Rails Tutorial Sample App"
@@ -81,7 +85,14 @@ en:
       Sign_up_now: "Sign up now!"
       Rails logo: "Rails logoafaf"
   shared:
-    error:
-      error: "errorsss"
+    error_messages:
+      error: "error"
       The_form: "The form form contains"
+  sessions:
+    new:
+      Sign up: "Sign up now!"
+      Log_in: "Log in"
+      New_user: "New user"
+    create:
+      danger: "Invalid email/password combination"
 
