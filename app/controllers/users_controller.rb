@@ -2,6 +2,11 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    if @user.nil?
+      render file: "/public/404", layout: false, status: 404
+    else
+      @user
+    end
   end
 
   def new
@@ -15,13 +20,14 @@ class UsersController < ApplicationController
       flash[:success] = t ".success"
       redirect_to @user
     else
+      flash[:danger] = t ".error"
       render :new
     end
   end
 
   private
-    def user_params
-      params.require(:user).permit :name, :email, :password,
-        :password_confirmation
-    end
+  def user_params
+    params.require(:user).permit :name, :email, :password,
+      :password_confirmation
+  end
 end
