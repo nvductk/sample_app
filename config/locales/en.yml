@@ -25,6 +25,7 @@ en:
   helpers:
   users:
     create:
+      error: "error"
       success: "Welcome to the Sample App!"
     new:
       title: "Sign up"
@@ -95,4 +96,7 @@ en:
       New_user: "New user"
     create:
       danger: "Invalid email/password combination"
+      remember: "Remember me on this computer"
+
+
 
