@@ -31,6 +31,19 @@ en:
       title: "Sign up"
       Confirmation: "Confirmationaaa"
       Create_my_account: "Create my accountaaa"
+    edit:
+      Save: "Save changes"
+      Edit_user: "Edit user"
+      change: "change"
+      Update: "Update your profile"
+      Please: "Please log in."
+    index:
+       All: "All users"
+    user:
+      delete: "delete"
+      You: "You sureaa?"
+    destroy:
+      User: "User deleted"
   layouts:
     footer:
       Tutorial: "Ruby on Rails Tutorial"
@@ -95,11 +108,7 @@ en:
       Log_in: "Log in"
       New_user: "New user"
       remember: "Remember me on this computer"
-
     create:
       danger: "Invalid email/password combination"
-
-    create:
-      danger: "Invalid email/password combination"
-
-
+      Profile: "Profile updated"
+      All users: "All users"
