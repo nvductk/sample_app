@@ -42,19 +42,13 @@ class User < ApplicationRecord
   end
 
   def activate
-<<<<<<< HEAD
-    update_attribute :activated, true
-    update_attribute :activated_at, Time.zone.now
-=======
     update_attributes activated: true, activated_at: Time.zone.now
->>>>>>> password-reset
   end
 
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
   end
-<<<<<<< HEAD
-=======
+
 
   def create_reset_digest
     self.reset_token = User.new_token
@@ -69,7 +63,7 @@ class User < ApplicationRecord
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
   end
->>>>>>> password-reset
+
   private
   def downcase_email
     self.email = email.downcase
@@ -79,8 +73,5 @@ class User < ApplicationRecord
     self.activation_token  = User.new_token
     self.activation_digest = User.digest activation_token
   end
-<<<<<<< HEAD
 
-=======
->>>>>>> password-reset
 end
