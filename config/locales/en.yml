@@ -108,11 +108,12 @@ en:
       Log_in: "Log in"
       New_user: "New user"
       remember: "Remember me on this computer"
-      forgot: "forgot password"
+
     create:
       danger: "Invalid email/password combination"
       Profile: "Profile updated"
       All users: "All users"
+
   password_resets:
     new:
       Forgot: "Forgot password"
