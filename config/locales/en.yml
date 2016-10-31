@@ -108,7 +108,18 @@ en:
       Log_in: "Log in"
       New_user: "New user"
       remember: "Remember me on this computer"
+      forgot: "forgot password"
     create:
       danger: "Invalid email/password combination"
       Profile: "Profile updated"
       All users: "All users"
+  password_resets:
+    new:
+      Forgot: "Forgot password"
+      Submit: "Submit"
+    create:
+      Email: "Email sent with password reset instructions"
+      Email_not_found: "Email address not found"
+    edit:
+      Update_password: "Update password"
+      Reset_password: "Reset password"
