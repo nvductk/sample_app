@@ -70,6 +70,20 @@ class UsersController < ApplicationController
     redirect_to root_url unless @user == current_user
   end
 
+  def following
+    @title = t(".following")
+    @user = User.find_by id: params[:id]
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t(".followers")
+    @user = User.find_by id: params[:id]
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
+  end
+
   private
   def user_params
     params.require(:user).permit :name, :email, :password,
