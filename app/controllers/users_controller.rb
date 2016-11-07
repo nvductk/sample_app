@@ -9,6 +9,7 @@ class UsersController < ApplicationController
     else
       @user
     end
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def index

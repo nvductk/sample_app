@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   get "sessions/new"
   resources :users
   resources :password_resets, except: [:index, :show, :destroy]
+  resources :microposts, only: [:create, :destroy]
 end

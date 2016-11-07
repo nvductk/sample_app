@@ -12,6 +12,12 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# Ignore uploaded test images.
+/public/uploads
+Gemfile.lock
+/db/schema.rb
+/test/fixtures/microposts.yml
+/test/models/micropost_test.rb
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
