@@ -6,7 +6,6 @@
 
 # Ignore bundler config.
 /.bundle
-/config/locales/en.yml
 /db/schema.rb
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -15,7 +14,6 @@
 # Ignore uploaded test images.
 /public/uploads
 Gemfile.lock
-/db/schema.rb
 /test/fixtures/microposts.yml
 /test/models/micropost_test.rb
 # Ignore all logfiles and tempfiles.

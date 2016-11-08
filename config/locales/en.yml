@@ -22,12 +22,18 @@
 en:
 
   hello: "Hello world"
+  time:
+  formats:
+    date_format: "%d-%m-%Y"
+    date_time_format: "%H:%m:%S %d-%m-%Y"
   helpers:
   users:
     create:
       error: "error"
       success: "Welcome to the Sample App!"
     new:
+    followers:
+      followers: "followers"
       title: "Sign up"
       Confirmation: "Confirmationaaa"
       Create_my_account: "Create my accountaaa"
@@ -44,6 +50,10 @@ en:
       You: "You sureaa?"
     destroy:
       User: "User deleted"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   layouts:
     footer:
       Tutorial: "Ruby on Rails Tutorial"
@@ -102,6 +112,12 @@ en:
     error_messages:
       error: "error"
       The_form: "The form form contains"
+    user_info:
+      micropost: "Micropost"
+      view my profile: "View my profile"
+    micropost_form:
+      Compose new micropost: "Compose new micropost"
+      Post: "Post"
   sessions:
     new:
       Sign up: "Sign up now!"
@@ -124,3 +140,4 @@ en:
     edit:
       Update_password: "Update password"
       Reset_password: "Reset password"
+
